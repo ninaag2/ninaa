@@ -1,0 +1,216 @@
+* {margin: 0; padding: 0; }
+
+body {
+  font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+  background: linear-gradient(90deg, #e8e8e9 0%, #f2f2f5 100%);
+  font-size: 1.1em;
+  color: #0f0e13;
+  min-height: 100vh;
+}
+header {
+  display: block;
+  background-color: #4059ad;
+  padding: 4px 0 4px 0;
+  border-bottom: none;
+  box-shadow: none;
+}
+h1, #admin h1 {
+  background: transparent;
+}
+h1 {
+  font-weight: 600;
+  padding: 0.3em 0 0.3em 0;
+  color: rgb(235, 228, 228);
+  background: transparent;
+  border-radius: 0;
+  text-shadow: 1px 1px 8px #1a4a5a44;
+  width: 1000px;
+  margin: auto;
+  letter-spacing: 1.5px;
+  font-size: 1.5em;
+}
+nav {
+  background: linear-gradient(90deg, #f1f0f3 0%, #eae9ed 100%) !important;
+  box-shadow: none;
+  border-radius: 0;
+}
+nav a {
+  color: #1b2324;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.2s, color 0.2s;
+  border-radius: 6px;
+  padding: 0.3em 1em;
+}
+nav a:hover {
+  color: #2b8db3;
+  background: #f1eded;
+}
+nav ul {display: table; width: 1000px; margin: auto;}
+nav li {display: table-cell; text-align: center; padding: 1em;}
+
+main {
+  overflow: auto;
+  min-height: 30vh;
+  background: transparent;
+  width: 1000px;
+  margin: auto;
+  box-shadow: none;
+  padding-top: 32px;
+  border-radius: 0;
+}
+
+footer {
+  padding: 1em;
+  background: transparent;
+  color: #f4f4f8;
+  font-size: 0.95em;
+  border-radius: 0;
+  background-color: #4059ad;
+  
+}
+
+p {margin-bottom: 1em;}
+input, label, select, textarea {
+  float: left;
+  width: 15em;
+  margin-bottom: 1em;
+  padding: 0.5em;
+  border-radius: 8px;
+  border: 1px solid #cdcaea;
+  background: #f4f2f8;
+  color: #161c1f;
+  box-shadow: 0 1px 4px #2b8db322;
+}
+label {clear: left; padding: 0; margin: 0;}
+input[type="submit"] {
+  margin-left: 15em;
+  width: auto;
+  padding: 0.5em 1.5em;
+  clear: both;
+  font-size: 1em;
+  background: #4059ad;
+  color: #e5eaec;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  box-shadow: 0 1px 4px #2b8db322;
+}
+input[type="submit"].button-delete{
+  background: #fa1c48;
+  color: #f6f1f1;
+  margin-left: 800px;
+  margin-right: 20px;
+
+ 
+}
+input[type = "submit"].button-a-question {
+  background: #4059ad;
+}
+
+form {overflow: auto; clear: both; display: block;}
+
+blockquote {
+  display: table;
+  margin-bottom: 1.5em;
+  border-bottom: 2px solid #2b8db3;
+  padding: 1em;
+  background: #fff;
+  color: #141418;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px #2b8db322;
+  width: 1100px;
+  max-width: 98vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+blockquote p {display: table-cell; width: 70%; vertical-align: top;}
+blockquote form {  display: table-cell; width: 10%;}
+
+.errors {
+  padding: 1em;
+  border: 1.5px solid #fff;
+  background: #2b8db3;
+  color: #fff;
+  margin-bottom: 1em;
+  overflow: auto;
+  border-radius: 8px;
+}
+.errors ul {margin-left: 1em;}
+
+form p {clear: both;}
+input[type="checkbox"] {float: left; clear: left; width: auto; margin-right: 10px;}
+input[type="checkbox"] + label {clear: right;}
+
+.questionlist {display: table;}
+.categories {
+  display: table-cell;
+  width: 20%;
+  background: #2b8db3;
+  padding: 1em;
+  list-style-type: none;
+  color: #eceaea;
+  border-radius: 12px;
+}
+.categories a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 6px;
+  padding: 0.2em 0.7em;
+  transition: background 0.2s, color 0.2s;
+}
+.categories a:hover {
+  color: #2b8db3;
+  background: #f4f3f6;
+}
+.login-container{
+  width: 300px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px #2b8db322;
+}
+.login-container {
+   border: white;
+}
+.mb-0{
+  color:#4059ad;
+  margin-bottom: 10px;
+}
+.form-control{
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+
+}
+.invalid-feedback{
+  font-size: 20px;
+  margin-right: 20px;
+}
+.mb-1{
+  margin-bottom: 20px;
+  font-size:20px;
+  margin-left: 220px;
+  margin-top: 20px;
+  background-color: #464feb;
+  border-color: #d8d6ec;
+  color: white;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 4px;
+}
+.subtitle{
+  color: rgb(252, 249, 249);
+  margin-left: 270px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.logo{
+    width: 50px;
+    height: auto;
+}
